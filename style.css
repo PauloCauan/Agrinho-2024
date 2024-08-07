@@ -87,6 +87,18 @@ h2 {
     border-radius: 50%; /* Mantém o estilo arredondado para imagens de membros */
     margin-bottom: 10px;
 }
+.banner-img {
+    width: 150px;  /* Define a largura padrão */
+    height: 150px; /* Define a altura padrão */
+    object-fit: cover; /* Garante que a imagem seja cortada corretamente para preencher o espaço */
+    margin-bottom: 10px;
+}
+.prog{
+    width: 800px;  /* Define a largura padrão */
+    height: 150px; /* Define a altura padrão */
+    object-fit: fill; /* Garante que a imagem seja cortada corretamente para preencher o espaço */
+    margin-bottom: 10px;
+}
 
 form {
     display: flex;
